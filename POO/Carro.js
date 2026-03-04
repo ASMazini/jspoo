@@ -11,7 +11,7 @@ class Car extends Automovel {
         this.setMarca("Porsche")
         this.setAno("2026")
 
-        return    "Seu modelo é: " + this.getModelo() + "\n"
+        return    "Seu modelo e: " + this.getModelo() + "\n"
                 + "A Marca do carro é: " + this.getMarca() + "\n"
                 + "O ano do carro é: " + this.getAno()
     }
